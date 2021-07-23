@@ -1,6 +1,6 @@
 # literate-robot
 
-Simple CRUD Web App written in Go
+simple-webapp
 
 ## Getting Started
 
@@ -54,7 +54,7 @@ We use [Github](https://github.com/) for versioning. For the versions available,
 
 ## Authors
 
-* [Dithmarschen](https://github.com/G-72807HB/literate-robot)
+* [G-72807HB](https://github.com/G-72807HB/literate-robot)
 
 See also the list of [contributors](https://github.com/G-72807HB/literate-robot) who participated in this project.
 
