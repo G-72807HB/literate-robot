@@ -1,4 +1,4 @@
-# ideal-giggle
+# literate-robot
 
 Simple CRUD Web App written in Go
 
