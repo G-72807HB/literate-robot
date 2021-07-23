@@ -1,0 +1,161 @@
+html, body {
+  background-color: #fff;
+  color: #636b6f;
+  font-family: 'Nunito', 'Segoe UI', sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+
+.title:hover #display {
+  /* transition: 0.3s;
+  opacity: 0; */
+  display: none;
+}
+
+.title:hover #hide {
+  /* transition: 0.3s;
+  opacity: 1; */
+  display: inherit;
+}
+
+#display {
+  /* transition: 0.3s; */
+}
+
+#hide {
+  /* transition: 0.3s;
+  opacity: 0; */
+  display: none;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.not-flex{
+  padding: 20px 0;
+}
+
+.id-center {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+.position-ref {
+  position: relative;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 18px;
+}
+
+.content {
+  min-width: 600px;
+  text-align: center;
+}
+
+.rnotes {
+  text-transform: capitalize;
+}
+.rnotes > li {
+  line-height: 2em;
+}
+
+.title {
+  font-size: 84px;
+}
+
+.links > a {
+  color: #636b6f;
+  padding: 0 25px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+}
+
+.links > a:hover {
+  text-decoration: underline;
+}
+
+.m-b-md, .signForm, .links {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.input, .btn {
+  padding: 5px 6.7px;
+  border-radius: 3px;
+  border: 0 solid #636b6f;
+  opacity: 0.67;
+  transition: 0.3s;
+}
+
+.input:hover, .input:focus, .btn:hover, .btn:focus {
+  opacity: 1;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.input {
+  border: 1px dashed #636b6f;
+  color: #636b6f;
+  background-color: white;
+}
+
+.btn {
+  margin: 5px auto;
+  cursor: pointer;
+  color: white;
+  background-color: #636b6f;
+}
+
+.history .btn{
+  background-color: none;
+  font-weight: bold;
+  font-size: 0.75em;
+  opacity: 1;
+}
+
+table {
+  width: 50%;
+  border: 1px dashed #636b6f;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+td {
+  padding: 5px 10px;
+}
+
+.id tr td:nth-child(odd) {
+  font-weight: bold;
+  opacity: 0.87;
+}
+
+.id tr td {
+  background-color: #636b6f;
+  color: white;
+  opacity: 0.67;
+}
+
+.history tr:first-child td, .history tr:last-child td {
+  font-weight: bold;
+  opacity: 0.87;
+}
+
+.history tr td {
+  background-color: #636b6f;
+  color: white;
+  opacity: 0.67;
+}

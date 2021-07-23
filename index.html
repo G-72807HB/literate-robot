@@ -1,0 +1,49 @@
+<html>
+
+  <head>
+
+    <title>{{.Head.Title}} - SupremeGarbanzo</title>
+
+    {{range .Head.CSS}}
+
+    <link rel="stylesheet" href="{{.}}">
+
+    {{end}}
+
+  </head>
+
+  <body>
+
+    <div class="flex-center position-ref full-height">
+
+      <div class="content">
+
+        <div class="links">
+          {{range .Body.Menu}}
+            <a href="{{.URL}}">{{.Menu}}</a>
+          {{end}}
+        </div>
+
+        <div class="title m-b-md">
+          <span id="display">
+            Hello {{.Data.Id.Username}} !
+          </span>
+          <span id="hide">
+            &#128330;
+          </span>
+        </div>
+
+        <div class="links">
+            <a href="">&copy; {{.Body.Footer.Footer}}</a>
+        </div>
+        <div class="links">
+            <a href=""></a>
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>

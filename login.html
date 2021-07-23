@@ -1,0 +1,61 @@
+<html>
+
+  <head>
+
+    <title>{{.Head.Title}} - SupremeGarbanzo</title>
+
+    {{range .Head.CSS}}
+
+    <link rel="stylesheet" href="{{.}}">
+
+    {{end}}
+
+  </head>
+
+  <body>
+
+    <div class="flex-center position-ref full-height">
+
+      <div class="content">
+
+        {{if .Body.Content}}
+          <div class="links">
+            {{range .Body.Content}}
+              {{if .Title}}
+                <a href=""><strong>{{.Title}} {{.Content}}</strong></a>
+              {{else}}
+                <a href=""></a>
+              {{end}}
+            {{end}}
+          </div>
+        {{end}}
+
+        <div class="title m-b-md">
+          <span id="display">
+            {{.Body.Header.PageTitle}}
+          </span>
+          <span id="hide">
+            Part of NGC
+          </span>
+        </div>
+
+        <form method="POST" class="signForm">
+          <input type="text" name="username" value="" placeholder="Username" maxlength="16" required autofocus class="input">
+          <input type="password" name="password" value="" placeholder="Password" maxlength="16" required class="input">
+          <input type="submit" name="SignIn" value="Sign In" class="btn">
+          <input type="submit" name="SignUp" value="Sign Up" class="btn">
+        </form>
+
+        <div class="links">
+          {{if .Body.Footer.Footer}}
+            <a href="">&copy; {{.Body.Footer.Footer}}</a>
+          {{end}}
+        </div>
+
+      </div>
+
+    </div>
+
+  </body>
+
+</html>
