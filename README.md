@@ -39,24 +39,24 @@ See the about page
 * [Golang](https://golang.org/) - Programming Language
 * [CircleCI](https://circleci.com/) - CI/CD Pipeline
 * [Travis-CI](https://travis-ci.org/) - Alternative CI/CD Pipeline
-* [podman](https://podman.io/) - In House Container Image Testing
-* [buildah](https://buildah.io/) - In House Container Image Building
+* [Podman](https://podman.io/) - In House Container Image Testing
+* [Buildah](https://buildah.io/) - In House Container Image Building
 * [Docker](https://www.docker.com/) - Container Image Building
 * [Docker Hub](https://hub.docker.com/) - Container Image Sharing
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/Dithmarschen/supreme-garbanzo) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://github.com/G-72807HB/literate-robot) for details on our code of conduct, and the process for submitting pull requests to us.
 
 ## Versioning
 
-We use [Github](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/Dithmarschen/supreme-garbanzo).
+We use [Github](https://github.com/) for versioning. For the versions available, see the [tags on this repository](https://github.com/G-72807HB/literate-robot).
 
 ## Authors
 
-* [Dithmarschen](https://github.com/ivnry/supreme-garbanzo)
+* [Dithmarschen](https://github.com/G-72807HB/literate-robot)
 
-See also the list of [contributors](https://github.com/ivnry/supreme-garbanzo) who participated in this project.
+See also the list of [contributors](https://github.com/G-72807HB/literate-robot) who participated in this project.
 
 ## License
 
